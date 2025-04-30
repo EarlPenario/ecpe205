@@ -4,6 +4,12 @@ public class Pet {
     public String name, breed; //persian, labrador, golden retriever
     public String pet_type;  //cat/dog
 
+    public Pet(String name, String breed, String pet_type) {
+        this.name = name;
+        this.breed = breed;
+        this.pet_type = pet_type;
+    }
+
     public String getName(){
         return name;
     }
